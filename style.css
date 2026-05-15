@@ -66,8 +66,8 @@ img {
     height: 280px;
     margin: 20px;
     object-fit: cover;
-    border: 8px solid #002966;
-    outline: 8px solid;
+    border: 8px solid #c9cccc;
+    outline: 8px solid rgb(2, 162, 2);
     
 }
 footer > p {
