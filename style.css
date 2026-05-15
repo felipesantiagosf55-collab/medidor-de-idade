@@ -1,0 +1,60 @@
+@charset "UTF-8";
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(92, 215, 243);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4em;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+h1, p {
+    text-shadow: 3px 3px 10px rgba(255, 255, 255, 0.304);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    
+}
+section {
+    background-color: rgb(35, 34, 34);
+    width: 500px;
+    
+    border-radius: 20px;
+}
+div#msg {
+    padding-top: 20px;
+}
+input#txtano {
+    padding: 10px;
+    border-radius: 10px;
+    width: 100px;
+}
+input#botao {
+    padding: 15px;
+    font-size: 0.8em;
+    border-radius: 10px;
+    background-color: rgb(9, 186, 9);
+}
+input#botao:hover {
+    padding: 20px;
+    
+}
+img {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    object-fit: cover;
+    border: 8px solid rgb(35, 34, 34);
+    outline: 8px solid;
+    
+}
